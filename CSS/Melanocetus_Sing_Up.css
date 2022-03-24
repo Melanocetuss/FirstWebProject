@@ -1,0 +1,36 @@
+body{
+	background-size:100%;
+	color: #87CEEB;
+	font-family: Mochiy Pop P One;
+}
+	
+#homepage_text{
+    font-family: Mochiy Pop P One;
+    font-size: 40px;	
+    color: #87CEEB;
+}
+#homepage{
+	text-decoration:none;
+}
+
+#homepage_border{
+	border:solid;
+	border-radius:6px;
+	border-width:7px;
+	width:255px;
+	border-color:rgb(6, 16, 45); 
+	background-color:rgb(6, 16, 45);
+}
+#singup_border{
+	border:solid;
+	border-width: 7px;
+	border-color: rgb(6, 16, 45);
+	border-radius: 6px;
+	width: 570px;
+	height:550px; 
+	margin-top:70px;	
+	box-sizing: border-box;
+	padding-top:35px;
+	padding-left:15px;	
+	background-color: black;
+}
