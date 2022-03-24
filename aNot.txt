@@ -1,0 +1,12 @@
+//V2.0
+//Sayfa 1920x1080 Çözürnürlüğüne göre hazırladım.
+
+
+
+
+//V3.0 yapılacaklar.
+
+//1.İleşim formu ekle.
+//2.Daha modern bir görüntü elde et.
+//3.Responsive uygun olarak tasarla.
+
