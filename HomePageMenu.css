@@ -1,0 +1,128 @@
+body{
+	background-size:100%;  
+	background-repeat:repeat;
+	background-color:gray;   
+}
+#menu{
+	list-style:none;
+	padding-left:0px;  
+}
+
+#login_pp{
+	width:30px; 
+}
+.menubuttonstext{
+	font-size:25px; 
+}
+
+.menubuttons{
+	margin-top:12px; 
+	display:inline-block;
+	width:260px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	text-transform:uppercase;
+	background-color:rgb(38, 38, 38);    
+}
+
+.menulink{
+	text-decoration:none;
+	color: rgb(0, 89, 179);	
+}
+
+.menulink:hover{
+	color:#87CEEB; 
+
+}
+
+#menudiv{
+	border:solid;
+	border-width:6px;
+	border-radius:6px;  
+	background-color:rgb(6, 16, 45);
+	border-color:rgb(6, 16, 45); 
+	position:fixed;
+    top:10px;
+    left:450px;   
+}
+
+#reklam{
+	width:165px;
+	height:513px;
+	background-color:black;
+	position:fixed;
+	top:120px;
+	border:solid;
+	border-width:5px;
+	border-color:rgb(6, 16, 45);    
+}
+
+#support{
+    position:static;
+    margin-top:250px;
+    margin-left:650px; 
+	width:700px; 
+	height:150px;
+	background-color:rgb(6, 16, 45);
+	color:white;
+	font-size:20px;
+	text-align:center;
+	border:solid;
+	border-width:7px; 
+	border-radius:8px;
+	border-color:black;     	   
+}
+
+.support-link{
+	color:rgb(0, 89, 179);
+	text-decoration:none;
+}
+
+.support-link:hover{
+	color:#87CEEB;
+}
+
+.photo{
+	top:30px;
+	width:30px 
+}
+
+ul{
+	list-style:none;
+}
+
+#contents{
+	position:static;
+	margin-top:120px;
+	margin-left:180px; 
+	border:solid;
+	border-width:8px; 
+	border-color:black;
+	border-radius: 6px;
+	background-color:rgb(6, 16, 45);
+	width:1600px;
+	height:1400px;  
+}
+
+.songs1{
+	border:solid;
+	border-color:black;
+	border-radius: 5px;
+	background-color:black;
+	border-width:3px;
+	width:250px;
+	height:420px;
+    margin-top:30px; 
+	margin-left:50px;
+	display:inline-block; 
+}
+
+
+.albumimages{
+	width:243px;
+}
+
+.songs-link{
+	text-decoration: none;
+}
