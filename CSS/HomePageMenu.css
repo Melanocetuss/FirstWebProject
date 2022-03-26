@@ -23,7 +23,8 @@ body{
 	line-height:50px;
 	text-align:center;
 	text-transform:uppercase;
-	background-color:rgb(38, 38, 38);    
+	background-color:rgb(38, 38, 38);
+	border-radius:10px;    
 }
 
 .menulink{
@@ -36,11 +37,8 @@ body{
 
 }
 
-#menudiv{
-	border:solid;
-	border-width:6px;
-	border-radius:6px;  
-	background-color:rgb(6, 16, 45);
+#menudiv{ 
+	background-color:transparent;
 	border-color:rgb(6, 16, 45); 
 	position:fixed;
     top:10px;
@@ -48,14 +46,13 @@ body{
 }
 
 #reklam{
-	width:165px;
-	height:513px;
-	background-color:black;
+	width:152px;
+	height:502px;
 	position:fixed;
 	top:120px;
 	border:solid;
-	border-width:5px;
-	border-color:rgb(6, 16, 45);    
+	border-width:1px;
+	border-color:white;    
 }
 
 #support{
@@ -93,25 +90,25 @@ ul{
 }
 
 #contents{
+	border:solid;
+	border-width:1px;
+    border-color:white;
+	border-radius:10px;
 	position:static;
 	margin-top:120px;
 	margin-left:180px; 
-	border:solid;
-	border-width:8px; 
-	border-color:black;
-	border-radius: 6px;
-	background-color:rgb(6, 16, 45);
-	width:1600px;
+	background-color:transparent;
+	width:1560px;
 	height:1400px;  
 }
 
 .songs1{
 	border:solid;
 	border-color:black;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color:black;
 	border-width:3px;
-	width:250px;
+	width:248px;
 	height:420px;
     margin-top:30px; 
 	margin-left:50px;
@@ -120,7 +117,8 @@ ul{
 
 
 .albumimages{
-	width:243px;
+	width:242px;
+	height:242px;
 }
 
 .songs-link{
