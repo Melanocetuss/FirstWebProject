@@ -16,10 +16,13 @@ color: #87CEEB;
 	padding-top:120px;
 	padding-left:15px;	
 	background-color: black;
-	opacity: 1;
+	opacity: 0.9;
 }
 
 #hompage:link{
+	color: #87CEEB;
+}
+#hompage:hover{
 	color: #87CEEB;
 }
 #homepage:visited{
