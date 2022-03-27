@@ -5,12 +5,8 @@ body{
 }
 #menu{
 	list-style:none;
-	padding-left:0px;  
 }
 
-#login_pp{
-	width:30px; 
-}
 .menubuttonstext{
 	font-size:25px; 
 }
@@ -23,17 +19,17 @@ body{
 	line-height:50px;
 	text-align:center;
 	text-transform:uppercase;
-	background-color:rgb(38, 38, 38);
+	background-color:rgba(0, 0, 0, 0.900);
 	border-radius:10px;    
 }
 
 .menulink{
 	text-decoration:none;
-	color: rgb(0, 89, 179);	
+	color:lightgray;	
 }
 
 .menulink:hover{
-	color:#87CEEB; 
+	color:green; 
 
 }
 
@@ -41,7 +37,7 @@ body{
 	background-color:transparent;
 	position:fixed;
     top:10px;
-    left:400px;   
+    left:360px;   
 }
 
 #ads{
@@ -91,7 +87,8 @@ body{
 .musicBand{
 	padding-top:10px;
 	margin-bottom:10px;
-	border:solid black;
+	border:solid rgba(211, 211, 211, 0.080);
+	border-width:2px;
 	text-align: center;
 	width:200px;
 	border-radius:15px;
@@ -103,7 +100,8 @@ body{
 .albumName{
 	padding-top:10px;
 	margin-bottom:10px;
-	border:solid black;
+	border:solid rgba(211, 211, 211, 0.080);
+	border-width:2px;
 	text-align: center;
 	width:230px;
 	border-radius:15px;
@@ -114,7 +112,8 @@ body{
 .songName{
 	padding-top:10px;
 	margin-bottom:10px;
-	border:solid black;
+	border:solid rgba(211, 211, 211, 0.080);
+	border-width:2px;
 	text-align: center;	
 	width:230px;
 	border-radius:15px;
@@ -124,7 +123,7 @@ body{
 
 .songText{
     font-size:17px; 
-    color:rgb(0, 89, 179);
+    color:lightgray;
 }
 
 .songs-link{
