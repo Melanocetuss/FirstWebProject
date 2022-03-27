@@ -22,16 +22,12 @@ body{
 	background-color:rgb(6, 16, 45);
 }
 #singup_border{
-	border:solid;
-	border-width: 7px;
-	border-color: rgb(6, 16, 45);
-	border-radius: 6px;
 	width: 570px;
 	height:550px; 
 	margin-top:70px;	
 	box-sizing: border-box;
 	padding-top:35px;
 	padding-left:15px;	
-	background-color: black;
-	opacity: 0.9;
+	background-color: rgba(0, 0, 0, 0.700);
+	border-radius: 20px;
 }

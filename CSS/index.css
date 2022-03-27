@@ -1,0 +1,132 @@
+body{
+	background-size:100%;  
+	background-repeat:repeat;
+	background-color:gray;   
+}
+#menu{
+	list-style:none;
+	padding-left:0px;  
+}
+
+#login_pp{
+	width:30px; 
+}
+.menubuttonstext{
+	font-size:25px; 
+}
+
+.menubuttons{
+	margin-top:12px; 
+	display:inline-block;
+	width:260px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	text-transform:uppercase;
+	background-color:rgb(38, 38, 38);
+	border-radius:10px;    
+}
+
+.menulink{
+	text-decoration:none;
+	color: rgb(0, 89, 179);	
+}
+
+.menulink:hover{
+	color:#87CEEB; 
+
+}
+
+#menudiv{ 
+	background-color:transparent;
+	position:fixed;
+    top:10px;
+    left:400px;   
+}
+
+#ads{
+	width:152px;
+	height:502px;
+	position:fixed;
+	top:120px;
+	border:solid;
+	border-width:1px;
+	border-color:white;  
+	opacity:0.8;  
+}
+
+#contents{
+	position:static;
+	margin-top:120px;
+	margin-left:180px; 
+	background-color:rgba(211, 211, 211, 0.150);
+	border-radius:20px;
+	width:1515px;
+	height:1380px;  
+}
+
+.songsDiv{
+	margin-top:30px; 
+	margin-left:40px;
+	width:249px;
+	background-color: rgba(0, 0, 0, 0.800);
+	border-radius:10px;
+	display:inline-block; 
+}
+.albumimagesdiv{
+	width:250px;
+	height:250px;
+	margin-top:3px; 
+	margin-left:3px;
+	position:static;
+}
+
+.albumimages{
+	width:242px;
+	height:242px;
+	border-radius:10px;
+
+}
+
+.musicBand{
+	padding-top:10px;
+	margin-bottom:10px;
+	border:solid black;
+	text-align: center;
+	width:200px;
+	border-radius:15px;
+	margin-left:25px;
+	text-transform:uppercase;
+	background-color: black;
+}
+
+.albumName{
+	padding-top:10px;
+	margin-bottom:10px;
+	border:solid black;
+	text-align: center;
+	width:230px;
+	border-radius:15px;
+	margin-left:10px;
+	background-color: black;
+}
+
+.songName{
+	padding-top:10px;
+	margin-bottom:10px;
+	border:solid black;
+	text-align: center;	
+	width:230px;
+	border-radius:15px;
+	margin-left:10px;
+	background-color: black;
+}
+
+.songText{
+    font-size:17px; 
+    color:rgb(0, 89, 179);
+}
+
+.songs-link{
+	text-decoration: none;
+}
