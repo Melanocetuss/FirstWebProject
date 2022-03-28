@@ -131,3 +131,7 @@ body{
 .songs-link{
 	text-decoration: none;
 }
+
+.songsDiv:hover{
+	background-color:rgba(0, 128, 0, 0.500);
+}
