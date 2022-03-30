@@ -16,15 +16,26 @@ color: #87CEEB;
 }
 
 #hompage:link{
-	color: #87CEEB;
+	color: lightgray;
 }
 #hompage:hover{
-	color: #87CEEB;
+	color: #1ccc5b;
 }
 #homepage:visited{
-	color: #87CEEB;
+	color: lightgray;
 }
 
+#hompageborder{
+	border:solid;
+	border-radius:6px;
+	border-width:7px;
+	width:255px;
+	background-color:rgba(0, 0, 0, 0.700);
+}
+
+#homepageborder:hover{
+	background-color:#1ccc5a83;
+}
 
 #homepage{
 font-family: Mochiy Pop P One;
@@ -32,21 +43,13 @@ font-size: 40px;
 text-decoration: none;
 }
 
-#homepage_border{
-	border:solid;
-	border-radius:6px;
-	border-width:7px;
-	width:255px;
-	border-color:rgb(6, 16, 45); 
-	background-color:rgb(6, 16, 45);
-}
 #new_account:link{
-color:#87CEEB;	
+color:lightgray;	
 }
 
 
 #new_account:visited{
-color:#87CEEB;	
+color:lightgray;	
 }
 
 #new_account{
@@ -56,13 +59,8 @@ text-decoration: none;
 }
 
 #new_account:hover{
-background-color:#B8860B ;
+background-color:green;
 }	
-
-#new_account:focus{
-font-size:40px;	
-}
-
 
 #table{	
 font-family: Mochiy Pop P One;
