@@ -4,6 +4,24 @@ background-repeat:repeat-y;
 color: #87CEEB;	
 }
 
+#returnHome{
+	background-color:rgba(0, 0, 0, 0.800);
+	width:270px;
+	text-align: center;
+	border-radius:10px;
+}
+
+#returnHome:hover{
+	background-color:rgba(0, 128, 0, 0.600);
+}
+
+#returnLink{
+	font-family: Mochiy Pop P One;
+    font-size: 35px;	  
+	color:lightgray;
+	text-align:none;
+}
+
 #login_border{	
 	width: 500px;
 	height:400px; 
@@ -13,34 +31,6 @@ color: #87CEEB;
 	padding-left:15px;	
 	background-color: rgba(0, 0, 0, 0.700);
 	border-radius: 20px;
-}
-
-#hompage:link{
-	color: lightgray;
-}
-#hompage:hover{
-	color: #1ccc5b;
-}
-#homepage:visited{
-	color: lightgray;
-}
-
-#hompageborder{
-	border:solid;
-	border-radius:6px;
-	border-width:7px;
-	width:255px;
-	background-color:rgba(0, 0, 0, 0.700);
-}
-
-#homepageborder:hover{
-	background-color:#1ccc5a83;
-}
-
-#homepage{
-font-family: Mochiy Pop P One;
-font-size: 40px;	
-text-decoration: none;
 }
 
 #new_account:link{
