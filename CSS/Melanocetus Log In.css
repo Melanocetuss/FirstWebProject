@@ -60,3 +60,29 @@ font-family: Mochiy Pop P One;
 	width: 150px;
 }
 
+.inputText{
+	padding-left:5px;
+	padding-top:7px;
+	padding-right:5px;
+	padding-bottom:7px;
+	border-radius:8px;
+	border:solid rgba(0, 128, 0, 0.300);
+	border-width:1px;
+	background-color:rgba(211, 211, 211, 0.100);
+	color:lightgray;
+}
+
+.inputButton{
+	color:lightgray;
+	background-color:#1ccc5a7a;
+	border-color:transparent;
+	border-radius:10px;
+	width:80px;
+	height:40px;
+	font-size:17px;
+}
+
+.inputButton:hover{
+	color: #1ccc5a;
+	background-color:rgba(211, 211, 211, 0.300);
+}
